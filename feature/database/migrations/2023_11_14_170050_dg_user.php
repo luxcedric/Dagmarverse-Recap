@@ -18,17 +18,17 @@ return new class extends Migration
             $table->integer('dg_points');
             $table->string('dg_currentgoals');
             $table->string('dg_formergoals');
-            $table->integer('dg_time_jan');
-            $table->integer('dg_time_feb');
-            $table->integer('dg_time_mar');
-            $table->integer('dg_time_apr');
-            $table->integer('dg_time_may');
-            $table->integer('dg_time_jun');
-            $table->integer('dg_time_jul');
-            $table->integer('dg_time_sep');
-            $table->integer('dg_time_oct');
-            $table->integer('dg_time_nov');
-            $table->integer('dg_time_dec');
+            $table->integer('dg_time_jan')->default('0');
+            $table->integer('dg_time_feb')->default('0');
+            $table->integer('dg_time_mar')->default('0');
+            $table->integer('dg_time_apr')->default('0');
+            $table->integer('dg_time_may')->default('0');
+            $table->integer('dg_time_jun')->default('0');
+            $table->integer('dg_time_jul')->default('0');
+            $table->integer('dg_time_sep')->default('0');
+            $table->integer('dg_time_oct')->default('0');
+            $table->integer('dg_time_nov')->default('0');
+            $table->integer('dg_time_dec')->default('0');
         });
     }
 
