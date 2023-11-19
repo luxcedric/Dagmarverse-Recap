@@ -16,8 +16,8 @@ return new class extends Migration
             $table->timestamp('dg_registration');
             $table->string('dg_name');
             $table->integer('dg_points');
-            $table->string('dg_currentgoals');
-            $table->string('dg_formergoals');
+            $table->string('dg_currentgoals')->nullable(true);
+            $table->string('dg_formergoals')->nullable(true);
             $table->integer('dg_time_jan')->default('0');
             $table->integer('dg_time_feb')->default('0');
             $table->integer('dg_time_mar')->default('0');
@@ -25,6 +25,7 @@ return new class extends Migration
             $table->integer('dg_time_may')->default('0');
             $table->integer('dg_time_jun')->default('0');
             $table->integer('dg_time_jul')->default('0');
+            $table->integer('dg_time_aug')->default('0');
             $table->integer('dg_time_sep')->default('0');
             $table->integer('dg_time_oct')->default('0');
             $table->integer('dg_time_nov')->default('0');
