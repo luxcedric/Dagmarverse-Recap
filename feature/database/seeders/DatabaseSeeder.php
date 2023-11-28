@@ -111,7 +111,7 @@ class DatabaseSeeder extends Seeder
             $newUserWatchedGenre->dg_userID= $newUserWatchedGenreData[2];
             $newUserWatchedGenre->dg_genreID= $newUserWatchedGenreData[3];
             
-            $newContentHasGenre->save();
+            $newUserWatchedGenre->save();
         }
         fclose($userWatchedGenreData);
 
