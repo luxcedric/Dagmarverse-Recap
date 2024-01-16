@@ -8,8 +8,8 @@ use Illuminate\Database\Eloquent\Model;
 class dg_user extends Model
 {
     use HasFactory;
-    protected $primaryKey = 'dg_id';
+    public $primaryKey = 'dg_UUID';
     public $timestamps = false;
-    protected $table = "dg_user";
+    public $table = "dg_user";
     
 }

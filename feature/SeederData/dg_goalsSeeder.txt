@@ -1,0 +1,3 @@
+null;Geld Sparen;2;Notfallfond aufbauen; 
+null;neuer Job;1;Bewerbung; 
+null;Haus kaufen;3;Finanzierung; 

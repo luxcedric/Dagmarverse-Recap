@@ -1,7 +1,0 @@
-null;Job
-null;Geld für morgen
-null;Partnerschaft
-null;Gründung
-null;Familie
-null;Investieren
-null;Ausbildung
